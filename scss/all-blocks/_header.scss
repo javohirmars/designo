@@ -1,0 +1,40 @@
+.header {
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 64px;
+        padding-bottom: 67px;
+    }
+    
+    &__logo {
+        width: 196px;
+        height: 24px;
+    }
+    
+    &__nav {
+    }
+    
+    &__nav-list {
+        display: flex;
+    }
+    
+    
+    &__nav-item {
+        &:not(:first-child) {
+            margin-left: 42px;
+        }            
+    }
+    
+    &__nav-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        color: $darkgrey;        
+        text-transform: uppercase;
+        
+    
+    }
+}
