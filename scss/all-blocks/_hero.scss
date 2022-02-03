@@ -1,0 +1,31 @@
+.hero {
+
+    &__container {
+        background: $peach;
+        min-height: 640px;
+        border-radius: 15px;        
+        
+        background-image: url(./../images/phone.png), url(./../images/oval-hero.svg);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 96px) calc(100% + 73px), center right;
+        background-size: 284px 574px, auto;
+    }
+
+    &__box {
+        max-width: 540px;
+        padding-top: 145px;
+        padding-bottom: 145px;
+        padding-left: 95px;
+    }
+
+    &__box-heading {
+        color: $white;
+        margin-bottom: 22px;
+    }
+    
+    &__box-text {
+        max-width: 440px;
+        color: $white;
+        margin-bottom: 52px;
+    }
+}

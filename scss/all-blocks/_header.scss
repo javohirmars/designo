@@ -2,6 +2,7 @@
     
     &__container {
         display: flex;
+        align-items: center;
         justify-content: space-between;
         padding-top: 64px;
         padding-bottom: 67px;
@@ -12,13 +13,9 @@
         height: 24px;
     }
     
-    &__nav {
-    }
-    
     &__nav-list {
         display: flex;
     }
-    
     
     &__nav-item {
         &:not(:first-child) {
@@ -33,8 +30,6 @@
         line-height: 14px;
         letter-spacing: 2px;
         color: $darkgrey;        
-        text-transform: uppercase;
-        
-    
+        text-transform: uppercase;    
     }
 }
