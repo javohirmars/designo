@@ -515,7 +515,7 @@ hr {
   text-transform: uppercase;
 }
 
-.hero__container {
+.hero__wrapper {
   background: #E7816B;
   min-height: 640px;
   border-radius: 15px;
