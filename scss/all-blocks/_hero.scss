@@ -1,7 +1,4 @@
 .hero {
-
-    &__container {
-    }
     
     &__wrapper {
         background: $peach;
@@ -12,7 +9,6 @@
         background-repeat: no-repeat;
         background-position: calc(100% - 96px) calc(100% + 73px), center right;
         background-size: 284px 574px, auto;
-
     }
 
     &__box {
