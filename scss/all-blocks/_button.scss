@@ -1,0 +1,20 @@
+.btnOnDark {
+    min-width: 152px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;   
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $darkgrey;
+    background-color: $white;
+    border-radius: 8px;
+    padding: 17px 24px;
+    
+    &:hover {
+        color: $white;
+        background-color: $lightpeach;
+    }
+}
+
