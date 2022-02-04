@@ -61,17 +61,15 @@
             height: calc(100vh - 100px);
             z-index: 1;            
         }
+
         
-        &__list {
+        &__nav-list {
             top: 100%;
             left: 0;
             background-color: $black;
             width: 100%;
             padding: 32px 24px;
             z-index: 2;
-        }
-        
-        &__nav-list {
             flex-direction: column;
             align-items: flex-start;
         }
